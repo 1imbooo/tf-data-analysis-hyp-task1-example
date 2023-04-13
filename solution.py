@@ -9,6 +9,9 @@ def solution(x_success: int,
              x_cnt: int, 
              y_success: int, 
              y_cnt: int) -> bool:
+    
+    alpha = 0.08
+    
     # Вычисляем доли продаж
     p1 = x_success / x_cnt
     p2 = y_success / y_cnt
